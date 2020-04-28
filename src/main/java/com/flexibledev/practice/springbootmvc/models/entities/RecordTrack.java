@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "tracks")
 @Getter
-public class Track {
+public class RecordTrack {
     @Column
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

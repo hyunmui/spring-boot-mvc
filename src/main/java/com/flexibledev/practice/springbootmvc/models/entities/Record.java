@@ -25,7 +25,7 @@ public class Record {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JsonManagedReference
     @JoinColumn(name = "record_id")
-    private Collection<Track> tracks;
+    private Collection<RecordTrack> tracks;
 
     @Column(name = "created_by")
     private String createdBy;
